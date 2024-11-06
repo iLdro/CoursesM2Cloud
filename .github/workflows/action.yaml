@@ -15,4 +15,5 @@ jobs:
       - name: Build and test
         run: |
           export SHELL=/bin/bash
+          chmod 777 ./gradlew
           ./gradlew build
