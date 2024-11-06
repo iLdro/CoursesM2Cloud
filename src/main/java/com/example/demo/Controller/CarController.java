@@ -27,7 +27,6 @@ public class CarController {
 
     @GetMapping("/cars")
     public List<Car> getCars(){
-        logger.info("Getting cars");
         return cars;
     }
 
